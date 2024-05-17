@@ -18,13 +18,4 @@ public class WriterFile {
         this.printWriter = new PrintWriter(fileWriter);
     }
     
-    public PrintWriter (writerFile) {
-    
-    }
-    pw = new PrintWriter(writer);
-       
-       for (int i = 0; i < 10; i++) {
-            pw.print("Linea " + i);
-        }
-        writerFile.close();
 }

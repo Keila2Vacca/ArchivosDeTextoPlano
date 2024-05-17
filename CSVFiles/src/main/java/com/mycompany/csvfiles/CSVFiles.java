@@ -3,6 +3,7 @@ package com.mycompany.csvfiles;
 
 import com.mycompany.csvfiles.managefiles.ReadFile;
 import com.mycompany.csvfiles.managefiles.WriterFile;
+import com.mycompany.csvfiles.managefiles.PrintWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,7 +25,14 @@ public class CSVFiles {
            System.out.println("Hola " + splited[1] + " " + splited[2] + " " + ", tu código es: " + splited[0] );
        }
        
-       WriterFile writerFile = new WriterFile(file);
+       WriterFile fileWriter = new WriterFile(file);
+       PrintWriter pw = new PrintWriter(fileWriter, true);
        
+      pw.println("nfkjtgbn" + "ntjhnlkrhn" + 1938759);
     }
 }
+
+
+
+
+
